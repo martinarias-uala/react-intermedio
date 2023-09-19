@@ -33,6 +33,16 @@ Si deseas contribuir al desarrollo de esta aplicación, sigue estos pasos:
 5. Ejecuta `npm run dev` para probar tus cambios localmente.
 6. Realiza un pull request con tus cambios.
 
-¡Disfruta desarrollando tu aplicación de películas!
+## Criterios de Aceptación
+
+1. **Contexto con `useContext`:** Implementa un contexto utilizando el hook `useContext` para compartir datos de películas entre componentes de manera eficiente.
+
+2. **Carga de Datos con `useEffect`:** Utiliza el hook `useEffect` para cargar datos de películas desde la API de Movies Database. Asegúrate de manejar adecuadamente los ciclos de vida de los componentes.
+
+3. **Gestión de Estados con `useReducer`:** Utiliza el hook `useReducer` para gestionar los estados de carga, éxito y error al interactuar con la API de películas. Esto incluye manejar las transiciones de estado de manera adecuada.
+
+4. **Paginación:** Implementa la paginación de datos de películas de manera óptima. Asegúrate de que la paginación se realice de manera eficiente y que los datos se carguen de acuerdo con las páginas solicitadas.
+
+5. **Filtrado por Nombre:** Agrega un campo de entrada (`input`) que permita a los usuarios filtrar las películas por nombre.
 
 ![Alt text](/public/image.png)
