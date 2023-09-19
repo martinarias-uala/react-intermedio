@@ -35,3 +35,4 @@ Si deseas contribuir al desarrollo de esta aplicación, sigue estos pasos:
 
 ¡Disfruta desarrollando tu aplicación de películas!
 
+![Alt text](/public/image.png)
